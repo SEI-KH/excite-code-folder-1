@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# エディタ
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ログファイル
+*.log
+
+# 依存関係（将来的にnpmを使う場合）
+node_modules/
+package-lock.json
+
+# ビルド成果物（必要に応じて）
+dist/
+build/
