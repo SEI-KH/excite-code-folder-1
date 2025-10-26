@@ -154,6 +154,7 @@ select::-ms-expand {
   .fv__img {
     background-image: url(../images/fv-img-sp.jpg);
     aspect-ratio: 345/475;
+    background-size: cover;
   }
 }
 
@@ -165,4 +166,41 @@ select::-ms-expand {
   .fv__title {
     font-size: 40px;
   }
+}
+
+.about {
+  margin: 100px 0 135px;
+}
+
+.about__inner {
+  width: 69.4%;
+  margin-inline: auto;
+}
+
+.about__title {
+  text-align: center;
+}
+
+.about__title-main {
+  font-size: 36px;
+  font-weight: 700;
+  color: #2b2b2b;
+}
+
+.about__title-sub {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #2b2b2b;
+}
+
+.about__img {
+  margin-top: 44px;
+  height: auto;
+}
+
+.about__text {
+  margin-top: 40px;
+  font-size: 18px;
+  color: #2b2b2b;
+  line-height: 2;
 }

@@ -18,6 +18,7 @@
   @include mq("md") {
     background-image: url(../images/fv-img-sp.jpg);
     aspect-ratio: 345/475;
+    background-size: cover;
   }
 }
 
@@ -27,4 +28,39 @@
   @include mq("md") {
     font-size: 40px;
   }
+}
+.about {
+  margin: 100px 0 135px;
+}
+
+.about__inner {
+  width: calc(round(1000 / 1440 * 100%, 0.1%));
+  margin-inline: auto;
+}
+
+.about__title {
+  text-align: center;
+}
+
+.about__title-main {
+  font-size: 36px;
+  font-weight: $bold;
+  color: $black;
+}
+
+.about__title-sub {
+  margin-top: 10px;
+  font-size: 16px;
+  color: $black;
+}
+
+.about__img {
+  margin-top: 44px;
+  height: auto;
+}
+.about__text {
+  margin-top: 40px;
+  font-size: 18px;
+  color: $black;
+  line-height: calc(36 / 18);
 }
