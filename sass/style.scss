@@ -1,3 +1,30 @@
 @use "./base/base";
 @use "./base/reset";
 @use "./global" as *;
+.fv {
+  padding: 80px 80px 0;
+  @include mq("md") {
+    padding: 15px 15px 0;
+  }
+}
+
+.fv__img {
+  background-image: url(../images/fv-img.jpg);
+  background-size: contain;
+  aspect-ratio: 1280/630;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @include mq("md") {
+    background-image: url(../images/fv-img-sp.jpg);
+    aspect-ratio: 345/475;
+  }
+}
+
+.fv__title {
+  font-size: 60px;
+  color: $white;
+  @include mq("md") {
+    font-size: 40px;
+  }
+}

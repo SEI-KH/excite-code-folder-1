@@ -25,11 +25,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400&family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+
+    <!-- ファーストビューの背景画像を先に読み込む -->
+    <link rel="preload" as="image" href="./images/fv-img.jpg" />
+    <link rel="preload" as="image" href="./images/fv-img-sp.jpg" />
+
     <!-- css -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
 
   <body>
-    <main></main>
+    <main>
+      <div class="fv">
+        <div class="fv__img">
+          <h1 class="fv__title">For the future</h1>
+        </div>
+      </div>
+    </main>
   </body>
 </html>

@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-family: "";
+  font-family: "Roboto", "Noto Sans JP", sans-serif;
 }
 
 a[href^="tel:"] {
@@ -131,4 +131,38 @@ select {
 
 select::-ms-expand {
   display: none;
+}
+
+.fv {
+  padding: 80px 80px 0;
+}
+@media screen and (max-width: 768px) {
+  .fv {
+    padding: 15px 15px 0;
+  }
+}
+
+.fv__img {
+  background-image: url(../images/fv-img.jpg);
+  background-size: contain;
+  aspect-ratio: 1280/630;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .fv__img {
+    background-image: url(../images/fv-img-sp.jpg);
+    aspect-ratio: 345/475;
+  }
+}
+
+.fv__title {
+  font-size: 60px;
+  color: #fff;
+}
+@media screen and (max-width: 768px) {
+  .fv__title {
+    font-size: 40px;
+  }
 }
